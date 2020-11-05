@@ -1,0 +1,38 @@
+@keyframes citrica {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 69%;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+header h1 {
+    font-size: 64px;
+    text-align: center;
+    padding: 25px;
+    color: red;
+}
+
+img {
+    animation-name: citrica;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
